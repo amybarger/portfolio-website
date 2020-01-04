@@ -33,11 +33,6 @@ body {
 	line-height: 1;
 }
 
-/* Amy Photo */
-
-.AmyPhoto {
-	width: 30%;
-}
 
 ol, ul {
 	list-style: none;
@@ -181,6 +176,9 @@ input, select, textarea {
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
+
+/* Header1 */
+	.Header1 
 
 /* Container */
 
@@ -1886,6 +1884,34 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/* Amy Image */
+	.AmyPhoto {
+		width: 50%;
+		border-radius: 2.5%;
+		text-align: center;
+		margin-bottom: 5%;
+	}
+/*End Amy Image  */
+
+/* Christina Image */
+	.ChristinaPhoto {
+		width: 30%;
+		border-radius: 50%;
+	}
+/* End Christina Image */
+
+/* Jeff Image */
+	.JeffPhoto {
+		width: 30%;
+		border-radius: 50%;
+	}
+/* End Jeff Image */
+
+/* Susie Image */
+	.SusiePhoto {
+		width: 30%;
+		border-radius: 50%;
+	}
 /* Icon */
 
 	.icon {
@@ -2439,6 +2465,27 @@ input, select, textarea {
 		margin-top: 5%;
 		display: flex;
 		flex-direction: column;
+	}
+
+	.P1About {
+		font-size: 1.5em;
+	}
+
+	.P2About {
+		text-align: center;
+		font-size: 1.2em;
+		display: flex;
+		justify-content: left;
+		align-content: center;
+		margin-left: 35%;
+	}
+
+	.ADigitalCreative {
+		margin-top: 40%;
+	}
+
+	.PSkills {
+		text-align: center;
 	}
 
 /* Dropotron */
